@@ -17,7 +17,7 @@ Decentralized nodes like Presearch can sometimes experience container crashes or
 
 **1. Download the script:**
 ```bash
-curl -O [https://raw.githubusercontent.com/tomatdb52/presearch-watchdog/main/watchdog.sh](https://raw.githubusercontent.com/tomatdb52/presearch-watchdog/main/watchdog.sh)
+curl -O https://raw.githubusercontent.com/tomatdb52/presearch-watchdog/main/watchdog.sh
 ```
 **2. Make it executable:**  
 ```bash
