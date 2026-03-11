@@ -1,6 +1,6 @@
 #!/bin/bash
 CONTAINER_NAME="presearch-node"
-KUMA_URL="http://100.122.163.39:3001/api/push/QgsOj047vh"
+KUMA_URL="https://din-kuma-url-här/api/push/din-nyckel"
 
 STATUS=$(docker inspect -f '{{.State.Running}}' $CONTAINER_NAME 2>/dev/null)
 if [ "$STATUS" = "true" ]; then
