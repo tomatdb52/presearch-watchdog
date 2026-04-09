@@ -11,7 +11,7 @@ elif echo "$LOGS" | grep -q "Node version is too old"; then
     MSG="DOWN - Version too old"
     STATE="down"
     docker restart $CONTAINER_NAME > /dev/null 2>&1
-elif ! echo "$LOGS" | grep -E -q "Waiting for search requests|Registration success"; then
+elif ! echo "$LOGS" | grep -E -q "Waiting for search requests|Registration success|listening for searches"; then
     MSG="DOWN - No connection"
     STATE="down"
     docker restart $CONTAINER_NAME > /dev/null 2>&1
